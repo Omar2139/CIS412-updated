@@ -14,7 +14,7 @@ import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore')
 
-df = pd.read_csv("/content/sample_data/superstore_data.csv")
+df = pd.read_csv("superstore_data.csv")
 
 df['Income'] = df['Income'].fillna(df['Income'].median())
 
